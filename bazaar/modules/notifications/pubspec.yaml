@@ -1,0 +1,26 @@
+name: notifications
+description: Notifications module. Builds an in-app inbox purely from other modules' events.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.11.1
+  go_router: ^18.1.4
+  get_it: ^9.3.0
+  core:
+  event_bus:
+  module_contract:
+  ui_kit:
+  identity_api:
+  checkout_api:
+  payments_api:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

@@ -1,0 +1,19 @@
+name: boundary_check
+description: Enforces module boundaries (copied from Bazaar, Chapter 24) by reading every pubspec and every import. Run it from the workspace root.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+executables:
+  boundary_check:
+  affected:
+  metrics:
+  modules:
+dependencies:
+  analyzer: ^14.7.0
+  path: ^1.9.1
+  yaml: ^3.1.4
+dev_dependencies:
+  test: ^1.32.0

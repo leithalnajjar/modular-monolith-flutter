@@ -1,0 +1,24 @@
+name: identity
+description: Identity module implementation. Only the app may depend on this package.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.1.0
+  go_router: ^18.1.4
+  get_it: ^9.3.0
+  core:
+  event_bus:
+  module_contract:
+  ui_kit:
+  identity_api:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

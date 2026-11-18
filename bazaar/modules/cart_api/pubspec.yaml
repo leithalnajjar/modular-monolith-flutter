@@ -1,0 +1,11 @@
+name: cart_api
+description: Public contract of the cart module. Interfaces and value types only.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  core:
+  catalog_api: # only for ProductId: a cart line is a line of a product

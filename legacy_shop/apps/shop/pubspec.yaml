@@ -1,0 +1,22 @@
+name: shop
+description: "The legacy shop app: one lib/ folder, organized by type, with an AppState that knows everything."
+publish_to: 'none'
+resolution: workspace
+version: 1.8.0+42
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.11.1
+  notifications:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

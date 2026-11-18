@@ -1,0 +1,31 @@
+# .github/CODEOWNERS
+# Who reviews changes to each part of Bazaar (Chapter 22). On GitHub, the
+# last matching line wins, so general lines come first. boundary_check
+# fails when a package has no line of its own or a line names no package.
+
+# Anything not listed below, including CI files and the root pubspec.
+*                           @your-org/architecture
+
+# The apps: each one a composition root (Chapter 23: the kiosk).
+/apps/bazaar_app/           @your-org/app-platform
+/apps/kiosk/                @your-org/retail-stores
+
+# Each module team owns its contract and its implementation.
+/modules/identity/          @your-org/accounts
+/modules/identity_api/      @your-org/accounts
+/modules/catalog/           @your-org/catalog
+/modules/catalog_api/       @your-org/catalog
+/modules/cart/              @your-org/checkout-experience
+/modules/cart_api/          @your-org/checkout-experience
+/modules/checkout/          @your-org/checkout-experience
+/modules/checkout_api/      @your-org/checkout-experience
+/modules/payments/          @your-org/payments
+/modules/payments_api/      @your-org/payments
+/modules/notifications/     @your-org/engagement
+
+# Shared code changes every module: the architecture group reviews it.
+/shared/                    @your-org/architecture
+/shared/ui_kit/             @your-org/design-system
+
+# The rules themselves.
+/tools/                     @your-org/architecture

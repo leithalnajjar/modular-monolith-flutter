@@ -1,0 +1,21 @@
+name: payments
+description: Payments module implementation. Only the app may depend on this package.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^9.3.0
+  core:
+  event_bus:
+  module_contract:
+  payments_api:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

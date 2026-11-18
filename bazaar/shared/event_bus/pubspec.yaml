@@ -1,0 +1,10 @@
+name: event_bus
+description: A small, typed, in-process event bus for Bazaar modules.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dev_dependencies:
+  test: ^1.25.0

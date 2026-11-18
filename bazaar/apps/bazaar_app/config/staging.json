@@ -1,0 +1,5 @@
+{
+  "BAZAAR_ENV": "staging",
+  "BAZAAR_CATALOG_URL": "https://staging.api.example.com/v1/",
+  "BAZAAR_FLAGS": "app.inbox=true,cart.persist=true"
+}

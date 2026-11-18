@@ -1,0 +1,26 @@
+name: bazaar_kiosk
+description: "Bazaar Kiosk: an in-store product browser for tablets. A second composition root that reuses the catalog module."
+publish_to: 'none'
+resolution: workspace
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.11.1
+  catalog:
+  catalog_api:
+  core:
+  module_contract:
+  ui_kit:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,40 @@
+name: bazaar_app
+description: "Bazaar, the Flutter app. Composition root only: it wires modules together."
+publish_to: 'none'
+resolution: workspace
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.1.0
+  cart:
+  cart_api:
+  catalog:
+  checkout:
+  checkout_api:
+  catalog_api:
+  identity:
+  identity_api:
+  notifications:
+  payments:
+  core:
+  module_contract:
+  ui_kit:
+  go_router: ^18.1.4
+  shared_preferences: ^2.5.6
+  storage:
+  http: ^1.6.0
+  feature_flags:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  shared_preferences_platform_interface: ^2.4.2
+
+flutter:
+  uses-material-design: true

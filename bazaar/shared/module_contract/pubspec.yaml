@@ -1,0 +1,22 @@
+name: module_contract
+description: The interface every Bazaar feature module implements, plus the bootstrapper the app uses to start them.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  event_bus:
+  feature_flags:
+  core:
+  storage:
+  go_router: ^18.1.4
+  get_it: ^9.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

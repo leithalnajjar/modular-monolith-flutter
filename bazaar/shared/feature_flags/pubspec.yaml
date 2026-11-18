@@ -1,0 +1,10 @@
+name: feature_flags
+description: Bazaar's feature flags. Modules declare the flags they own; the app decides their values once, at startup. Pure Dart.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dev_dependencies:
+  test: ^1.25.0

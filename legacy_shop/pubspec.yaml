@@ -1,0 +1,14 @@
+name: legacy_shop_workspace
+publish_to: none
+description: A small legacy Flutter app, being migrated to modules (Chapter 24).
+
+environment:
+  sdk: ^3.6.0
+
+workspace:
+  - apps/shop
+  - modules/notifications
+  - tools/boundary_check
+
+dev_dependencies:
+  lints: ^6.0.0

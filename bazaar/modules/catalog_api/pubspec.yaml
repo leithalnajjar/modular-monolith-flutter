@@ -1,0 +1,12 @@
+name: catalog_api
+description: Public contract of the catalog module. Interfaces and value types only.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  core:
+dev_dependencies:
+  test: ^1.32.0

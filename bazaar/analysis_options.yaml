@@ -1,0 +1,20 @@
+# analysis_options.yaml (workspace root)
+# Shared rules for every package. Members include this file and may add more.
+include: package:lints/recommended.yaml
+
+analyzer:
+  # Generated code is checked by its generator, and in large apps it can be
+  # most of what the analyzer reads. Members add their own build/ folders.
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.mocks.dart"
+  language:
+    strict-casts: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    - prefer_final_locals
+    - avoid_dynamic_calls
+    - unawaited_futures

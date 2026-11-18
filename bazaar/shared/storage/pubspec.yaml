@@ -1,0 +1,10 @@
+name: storage
+description: Bazaar's storage port. Each module keeps its data in its own scope, with versioned documents. Pure Dart.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dev_dependencies:
+  test: ^1.25.0

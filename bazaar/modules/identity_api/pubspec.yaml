@@ -1,0 +1,11 @@
+name: identity_api
+description: Public contract of the identity module. Interfaces, IDs and events only.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  core:
+  event_bus:
